@@ -17,7 +17,11 @@ sensible
 ![Tree](TreeBased.png "Shows how the type of movie/TV Show is")
 * Different Watch ratings shown with whether the "content" is a Movie or T.V. Show.
 * It is amazing that Movies are distributed in all categories meanwhile most T.V. Shows are at least 13+.
-
+### PieChart on Netflix
+[Pies](Pies.png "Showing movies/T.V.shows data is divided in top 10 countries")
+* More than 50% of movies/ T.V. shows in Netflix are from U.S.
+* Showing how dominant the Hollywood industry in OTT platforms.
+* And next comes Indian Content which has 22% presence in the dataset(25 % sampled).
 ## Amazon Prime Data
 * The sample is 66% taken randomly out the dataset
 * Below are the Graphs and what analysis of data shows is listed below
