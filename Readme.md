@@ -41,6 +41,7 @@ sensible
 * Concerntration of most movies are from (2016-2020)
 * Intrestingly most 18+ movies are made in 2016.
 ### TreeMap on Maturity vs Language
+![TreepMaps](TreeMapAmazon.png "Amazon data language tree map")
 * From the above Tree Map we can see "English", "Hindi" and "Tamil" have made Shows/Movies in all categories of Maturity.
 * Meanwhile "Punjabi" has Only two categories that are "13+" and "All"
 * As from the above Bar Chart 13+ is dominant which is evidently shown in the treemap.
