@@ -32,6 +32,12 @@ sensible
 * The above Graph shows Positive reviews has "love" word used dominantly.
 * Some of the words include "love","excellent","rich","large".
 * Intresting "love" was used 868 times out of 3380 uses, which is 25.68 %.
+### 75 % Word Cloud
+![BetterWordCloud](Netflix75perWordCloud.jpg "Shows how much the data is diversed")
+* When 75 % data was considered Word Cloud changed, Which introduced some new words into light
+* In the above cloud, which shows life, family, women and staff are top 4 topics
+* Considering the limit of data collected from 1900 to 2020, life was most sought out topic
+* Family and Women came up after 2004 and so.
 ## Amazon Prime Data
 * The sample is 66% taken randomly out the dataset
 * Below are the Graphs and what analysis of data shows is listed below
