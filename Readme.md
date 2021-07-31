@@ -9,6 +9,7 @@ performed so far
 * Above word cloud is from the Anaylzed data, which provides the count of words which are conceptually 
 sensible
 * When WordCloud was given a deeper analysis we attain the following graph
+#### In depth-Word Cloud
 ![DeeperWords](Deeper_Word.png "Word Cloud with deeper analysis")
 * Lead roles was used too much, which can be conclusion of how in general public talks about the protagonist/antagonist much more than side roles
 * Meanwhile "friend","family" were also used in greater %.
@@ -45,3 +46,10 @@ sensible
 * From the above Tree Map we can see "English", "Hindi" and "Tamil" have made Shows/Movies in all categories of Maturity.
 * Meanwhile "Punjabi" has Only two categories that are "13+" and "All"
 * As from the above Bar Chart 13+ is dominant which is evidently shown in the treemap.
+## Language vs Maturity explained with relations
+![Relations](Relations.png "Shows a relationship graph between two")
+* This is more insightful than TreeMap, and thus provides more deeper view of  films/TV.shows.
+* Shows how language affects the maturity rating of the content
+* Notice 13+ as the biggest bubble with NR as second most occuring maturity type
+* Also Hindi,English are two dominant languages in the Amazon dataset.
+* Most 18+ are made in English,Hindi and Tamil. 
