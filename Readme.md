@@ -65,3 +65,4 @@ sensible
 * We can see that 7.5 was the modal rating with English,Telegu,Bengali,Tamil languages
 * Also we see that each movie or T.V. show was 1:30 hrs to 2:00 hrs long in the Concerntrated area
 * A Tamil movie had a rating of 1.4, which can conclude that there is an outlier, also highest rating is 8.9.
+* There is maturity diversity, but mostly 13+,16+ and 18+ categories are dominant.
