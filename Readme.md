@@ -32,6 +32,20 @@ sensible
 * The above Graph shows Positive reviews has "love" word used dominantly.
 * Some of the words include "love","excellent","rich","large".
 * Intresting "love" was used 868 times out of 3380 uses, which is 25.68 %.
+### 75 % Word Cloud
+![BetterWordCloud](Netflix75perWordCloud.jpg "Shows how much the data is diversed")
+* When 75 % data was considered Word Cloud changed, Which introduced some new words into light
+* In the above cloud, which shows life, family, women and staff are top 4 topics
+* Considering the limit of data collected from 1900 to 2020, life was most sought out topic
+* Family and Women came up after 2004 and so.
+### Scatter plot
+![Scatter](Scatter-Netflix.jpg "Scatter plot of Year/ Time")
+* This helps to determine which years were dominant in production of content.
+* Also gradient of points define how much the content is famous.
+* We can see from graph that T.V. shows were around 118 mins long or 4 seasons mostly.
+* Also domination of 2000 to 2020 is fantastic in content production
+* While most points lies on 80 to  140 mins, showing the length of movie/T.V. shows not less than 1:20 hrs and greater than 2:20hrs on average
+* Intrestingly a T.V. show was made in early 1940s which seems to be earliest T.V. Show.
 ## Amazon Prime Data
 * The sample is 66% taken randomly out the dataset
 * Below are the Graphs and what analysis of data shows is listed below
@@ -53,3 +67,10 @@ sensible
 * Notice 13+ as the biggest bubble with NR as second most occuring maturity type
 * Also Hindi,English are two dominant languages in the Amazon dataset.
 * Most 18+ are made in English,Hindi and Tamil. 
+### 3D Scatter Chart
+![3DChart](Amazon3d.jpg "3d scatter plot")
+* The above chart shows how 3 factors relate to each other graphically, and cocerntration of points in the place
+* We can see that 7.5 was the modal rating with English,Telegu,Bengali,Tamil languages
+* Also we see that each movie or T.V. show was 1:30 hrs to 2:00 hrs long in the Concerntrated area
+* A Tamil movie had a rating of 1.4, which can conclude that there is an outlier, also highest rating is 8.9.
+* There is maturity diversity, but mostly 13+,16+ and 18+ categories are dominant.
