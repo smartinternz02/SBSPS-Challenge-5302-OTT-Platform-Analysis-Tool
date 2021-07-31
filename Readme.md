@@ -38,6 +38,14 @@ sensible
 * In the above cloud, which shows life, family, women and staff are top 4 topics
 * Considering the limit of data collected from 1900 to 2020, life was most sought out topic
 * Family and Women came up after 2004 and so.
+### Scatter plot
+![Scatter](Scatter-Netflix.jpg "Scatter plot of Year/ Time")
+* This helps to determine which years were dominant in production of content.
+* Also gradient of points define how much the content is famous.
+* We can see from graph that T.V. shows were around 118 mins long or 4 seasons mostly.
+* Also domination of 2000 to 2020 is fantastic in content production
+* While most points lies on 80 to  140 mins, showing the length of movie/T.V. shows not less than 1:20 hrs and greater than 2:20hrs on average
+* Intrestingly a T.V. show was made in early 1940s which seems to be earliest T.V. Show.
 ## Amazon Prime Data
 * The sample is 66% taken randomly out the dataset
 * Below are the Graphs and what analysis of data shows is listed below
