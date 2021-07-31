@@ -59,3 +59,9 @@ sensible
 * Notice 13+ as the biggest bubble with NR as second most occuring maturity type
 * Also Hindi,English are two dominant languages in the Amazon dataset.
 * Most 18+ are made in English,Hindi and Tamil. 
+### 3D Scatter Chart
+![3DChart](Amazon3d.jpg "3d scatter plot")
+* The above chart shows how 3 factors relate to each other graphically, and cocerntration of points in the place
+* We can see that 7.5 was the modal rating with English,Telegu,Bengali,Tamil languages
+* Also we see that each movie or T.V. show was 1:30 hrs to 2:00 hrs long in the Concerntrated area
+* A Tamil movie had a rating of 1.4, which can conclude that there is an outlier, also highest rating is 8.9.
