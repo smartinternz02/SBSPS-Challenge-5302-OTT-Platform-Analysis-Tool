@@ -1,6 +1,7 @@
 # OTT Platform Analysis Tool
 * This tool is to show how well the OTT platforms have 
 performed so far
+![Workflow](Workflow_OTT.jpg "Workflow of OTT plaform")
 ## Netflix data
 * Basic analysis on netflix data and reviews are analyzed with help of customer statisfaction opinions resource in IBM Watson.
 * Current Analysis is on 25 % data.
