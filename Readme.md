@@ -60,7 +60,7 @@ sensible
 * From the above Tree Map we can see "English", "Hindi" and "Tamil" have made Shows/Movies in all categories of Maturity.
 * Meanwhile "Punjabi" has Only two categories that are "13+" and "All"
 * As from the above Bar Chart 13+ is dominant which is evidently shown in the treemap.
-## Language vs Maturity explained with relations
+### Language vs Maturity explained with relations
 ![Relations](Amazon/Relations.jpg "Shows a relationship graph between two")
 * This is more insightful than TreeMap, and thus provides more deeper view of  films/TV.shows.
 * Shows how language affects the maturity rating of the content
