@@ -1,6 +1,7 @@
 # OTT Platform Analysis Tool
 * This tool is to show how well the OTT platforms have 
 performed so far
+![Workflow](Workflow_OTT.jpg "Workflow of OTT plaform")
 ## Netflix data
 * Basic analysis on netflix data and reviews are analyzed with help of customer statisfaction opinions resource in IBM Watson.
 * Current Analysis is on 25 % data.
@@ -60,7 +61,7 @@ sensible
 * From the above Tree Map we can see "English", "Hindi" and "Tamil" have made Shows/Movies in all categories of Maturity.
 * Meanwhile "Punjabi" has Only two categories that are "13+" and "All"
 * As from the above Bar Chart 13+ is dominant which is evidently shown in the treemap.
-## Language vs Maturity explained with relations
+### Language vs Maturity explained with relations
 ![Relations](Amazon/Relations.jpg "Shows a relationship graph between two")
 * This is more insightful than TreeMap, and thus provides more deeper view of  films/TV.shows.
 * Shows how language affects the maturity rating of the content
@@ -74,3 +75,9 @@ sensible
 * Also we see that each movie or T.V. show was 1:30 hrs to 2:00 hrs long in the Concerntrated area
 * A Tamil movie had a rating of 1.4, which can conclude that there is an outlier, also highest rating is 8.9.
 * There is maturity diversity, but mostly 13+,16+ and 18+ categories are dominant.
+### BarChart Language with Maturity rating
+![Barchrt](Amazon/Multi_graph.jpg "Multi graph")
+* English is dominating in dataset considering the bargraph shown above with having 13+ maturity as maximum, whilist 18+ as the second best rating in movies plublished on Amazon.
+* Next Comes Hindi Movies on Amazon Prime where again The domination of 13+ movies is 60% which is lot considering other categories
+* All of the punjabi movies are rated 13+ which is wierd showing they do not produce adult or children movies but a moderately happy movies
+* Also 7+ is the scarce category to found having < 5 % share in each of the Languages.
