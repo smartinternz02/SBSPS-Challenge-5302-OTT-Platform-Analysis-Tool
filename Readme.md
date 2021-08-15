@@ -82,6 +82,8 @@ sensible
 * All of the punjabi movies are rated 13+ which is wierd showing they do not produce adult or children movies but a moderately happy movies
 * Also 7+ is the scarce category to found having < 5 % share in each of the Languages.
 ## Misc Graphs
+* This section covers the overall analytical dataset found in kaggle which tells in general how population percieves OTT platform.
+*  With Different graphs we could reach better conclusions and get a better understanding of social stand point in for OTT platforms.
 ### PieChart for Age group
 ![PieChart](Misc_visuals/Pie-for-ott.jpg "Pie Chart for age group")
 * From the above graph we can see that teenagers watches OTT platform at most from the sample collected. Numerically 64.74% population from the sample.
