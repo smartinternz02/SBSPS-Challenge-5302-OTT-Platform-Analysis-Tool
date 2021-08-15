@@ -81,3 +81,10 @@ sensible
 * Next Comes Hindi Movies on Amazon Prime where again The domination of 13+ movies is 60% which is lot considering other categories
 * All of the punjabi movies are rated 13+ which is wierd showing they do not produce adult or children movies but a moderately happy movies
 * Also 7+ is the scarce category to found having < 5 % share in each of the Languages.
+## Misc Graphs
+### PieChart for Age group
+![PieChart](Misc_visuals/Pie-for-ott.jpg "Pie Chart for age group")
+* From the above graph we can see that teenagers watches OTT platform at most from the sample collected. Numerically 64.74% population from the sample.
+* And the least is Above 50 years of age, Well we can speculate that old people do not appriciate the newer steps
+* Although working population, is above 20  and less than 50 which subsumes around 20%  of the whole sample collected.
+* Conclusively, Teenagers are the most watchers reasons can be pyschological pressure, anexity, entertainment and A better choice of tailored shows.
