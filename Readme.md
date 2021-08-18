@@ -10,7 +10,7 @@ performed so far
 * Above word cloud is from the Anaylzed data, which provides the count of words which are conceptually 
 sensible
 * When WordCloud was given a deeper analysis we attain the following graph
-#### In depth-Word Cloud
+### In depth-Word Cloud
 ![DeeperWords](Netflix/Deeper_Word.jpg "Word Cloud with deeper analysis")
 * Lead roles was used too much, which can be conclusion of how in general public talks about the protagonist/antagonist much more than side roles
 * Meanwhile "friend","family" were also used in greater %.
@@ -47,6 +47,11 @@ sensible
 * Also domination of 2000 to 2020 is fantastic in content production
 * While most points lies on 80 to  140 mins, showing the length of movie/T.V. shows not less than 1:20 hrs and greater than 2:20hrs on average
 * Intrestingly a T.V. show was made in early 1940s which seems to be earliest T.V. Show.
+### BarChart with emotional Tags
+![Barchart_emotes](Netflix/Bar_emotes.jpg "Bar chart with Emotions are good")
+* The above bar chart shows how emotions are tagged with plot of the movie Showing what is Prevaliving in the comments.
+* The Negative Features are dominating,  whereas Positive Features just next Negative One's
+* Buying, Date Unknown are some of the common tags in the textual analysis.
 ## Amazon Prime Data
 * The sample is 66% taken randomly out the dataset
 * Below are the Graphs and what analysis of data shows is listed below
