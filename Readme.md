@@ -1,6 +1,7 @@
 # OTT Platform Analysis Tool
 * This tool is to show how well the OTT platforms have 
 performed so far
+## Note: Do not overuse the published Heroku site because CUH(Capicity unit Hour) decreases and I already have less, Thank you
 ## Published ML model on Heroku
 * Find out which OTT platform will you watch with simple 
 * Form provided.
