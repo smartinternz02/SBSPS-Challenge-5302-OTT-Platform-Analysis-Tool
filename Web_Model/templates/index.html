@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Find out your OTT Platform</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='Files/fonts/material-icon/css/material-design-iconic-font.min.css') }}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='Files/css/style.css') }}" />
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="{{ url_for('static',filename='Files/images/signup-img.jpg') }}" alt="">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2>Get which OTT platform you will Prefer</h2>
+                        <div class="form-group">
+                            <label for="Age">Age :</label>
+                            <input type="text" name="age" id="age" pattern="[0-9]*" required />
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="Money">Amount Spent on OTT :</label>
+                                <input type="text" name="ott_amt" id="ott_amount" pattern="[0-9]*" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="Money">Amount Spent on TV :</label>
+                                <input type="text" name="tv_amt" id="tv_amount" pattern="[0-9]*" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">Time spent on OTT :</label>
+                                <input type="text" name="ott_t" id="ott_time" pattern="[0-9]*" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time spent on TV :</label>
+                                <input type="text" name="tv_t" id="tv_time" pattern="[0-9]*" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="locked">Have you started OTT in lockdown ? :</label>
+                            <div class="form-select">
+                                <select name="yes_no2" id="locked">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="OTT wins TV">Do you like OTT more than TV ? :</label>
+                            <div class="form-select">
+                                <select name="yes_no" id="ott_tv">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label for="Occupation">Occupation :</label>
+                                <div class="form-select">
+                                    <select name="occupation" id="occp">
+                                        <option value=""></option>
+                                        <option value="Student">Student</option>
+                                        <option value="Full time working">Full Time working</option>
+                                        <option value="Housewife">Housewife</option>
+                                        <option value="Part time working">Part Time Working</option>
+                                        <option value="Retired">Retired</option>
+                                        <option value="Unemployed">Unemployed</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Living">Where do you live ? :</label>
+                                <div class="form-select">
+                                    <select name="living" id="live">
+                                        <option value=""></option>
+                                        <option value="Central">Central</option>
+                                        <option value="Harbour">Harbour</option>
+                                        <option value="Western">Western</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="TV">What TV you use ? :</label>
+                                <div class="form-select">
+                                    <select name="tv_type" id="tv_type">
+                                        <option value=""></option>
+                                        <option value="Dish">Dish TV</option>
+                                        <option value="local">Local Cable</option>
+                                        <option value="none">Don't Watch</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mode">Preferred Mode :</label>
+                                <div class="form-select">
+                                    <select name="mode" id="mode">
+                                        <option value=""></option>
+                                        <option value="ott">OTT</option>
+                                        <option value="tv">TV</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="study">Does it effect you ? :</label>
+                                <div class="form-select">
+                                    <select name="yes_no3" id="affect">
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="{{ url_for('static',filename='Files/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='Files/js/main.js') }}"></script>
+</body>
+
+</html>
