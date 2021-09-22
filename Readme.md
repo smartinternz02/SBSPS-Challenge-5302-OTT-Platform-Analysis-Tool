@@ -1,6 +1,11 @@
 # OTT Platform Analysis Tool
 * This tool is to show how well the OTT platforms have 
 performed so far
+## Published ML model on Heroku
+* Find out which OTT platform will you watch with simple 
+* Form provided.
+[Link to Website](https://guess-api-1.herokuapp.com/)
+* Enjoy the latest release
 ## Link to Video
 [Link to video](https://drive.google.com/file/d/1sHebBsqFtZ4VKB0hS_6WkdFsPNwsnrMX/view?usp=sharing "Video on project")
 ![Workflow](Workflow_OTT.jpg "Workflow of OTT plaform")
