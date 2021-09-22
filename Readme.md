@@ -6,6 +6,16 @@ performed so far
 * Form provided.
 [Link to Website](https://guess-api-1.herokuapp.com/)
 * Enjoy the latest release
+## Can Check or Rerun the project
+* Step 1: Go to [IBM Pak Data](https://www.ibm.com/in-en/products/cloud-pak-for-data) and Login with IBM Id
+* Step2: Start to create a new Project
+* Step3: Choose import from file
+* Step4: Upload the zip file in **Project_files/IBM Pak Data**
+* Step5: Give the project a name and click create
+* **Follow if you want to associate ML Service**
+* Step6: Go to [IBM Cloud](https://cloud.ibm.com/login) and login with IBM Id
+* Step7: Create a new ML service
+* Step8: Go to your project in IBM Pak Data and associate a service with it
 ## Link to Video
 [Link to video](https://drive.google.com/file/d/1sHebBsqFtZ4VKB0hS_6WkdFsPNwsnrMX/view?usp=sharing "Video on project")
 ![Workflow](Workflow_OTT.jpg "Workflow of OTT plaform")
