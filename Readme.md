@@ -18,7 +18,8 @@ performed so far
 * Step7: Create a new ML service
 * Step8: Go to your project in IBM Pak Data and associate a service with it
 ## Link to Video
-[Link to video](https://drive.google.com/file/d/1sHebBsqFtZ4VKB0hS_6WkdFsPNwsnrMX/view?usp=sharing "Video on project")
+[Link to video](https://drive.google.com/file/d/1sHebBsqFtZ4VKB0hS_6WkdFsPNwsnrMX/view?usp=sharing "Video on project") \
+\
 ![Workflow](Workflow_OTT.jpg "Workflow of OTT plaform")
 ## Netflix data
 * Basic analysis on netflix data and reviews are analyzed with help of customer statisfaction opinions resource in IBM Watson.
