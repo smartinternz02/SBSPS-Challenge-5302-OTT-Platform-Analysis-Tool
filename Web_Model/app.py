@@ -2,32 +2,6 @@ from flask import Flask, render_template,request
 import requests
 
 app = Flask(__name__)
-flds = [
-				"Min_age",
-				"Max_age",
-				"How much do you pay for OTT platforms on monthly basis ?",
-				"How much do you pay for TV on monthly basis ?",
-				"Min_time",
-				"Max_time",
-				"Min_time_TV",
-				"Max_time_TV",
-				"OTT during Lockdown",
-				"OTT wins TV",
-				"Full time working",
-				"Housewife",
-				"Part time working",
-				"Retired",
-				"Student",
-				"Unemployed",
-				"Central",
-				"Harbour",
-				"Western",
-				"Dish TV(Tata aky, Airtel, etc)",
-				"Don't watch",
-				"Local cable",
-				"mode",
-				"Affect"
-			]
 wo = ["Full time working",
 				"Housewife",
 				"Part time working",
