@@ -83,7 +83,7 @@ def home():
     return "<h1> You will watch {} </h1>".format(val[0][0])
 
 def api(send):
-    API_KEY = "MYcscfvg-fkX9AL-FjRDSO3vcVt-m50hpRRvmdiY_Chl"
+    API_KEY = "o1cHn_3_u3apZhmlfa1zsnmFX-eOC5mNlFlNsKEIMSGo"
     token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
     mltoken = token_response.json()["access_token"]
     header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltoken}
@@ -110,7 +110,7 @@ def api(send):
 				"Affect"
 			],
                                        "values": [send]}]}
-    response_scoring = requests.post('https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/get_platform/predictions?version=2021-09-21&version=2021-09-21', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
+    response_scoring = requests.post('https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/use_this/predictions?version=2021-09-27&version=2021-09-27', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
     print("Scoring response")
     print(response_scoring.json())
     return  response_scoring.json()['predictions'][0]['values']
