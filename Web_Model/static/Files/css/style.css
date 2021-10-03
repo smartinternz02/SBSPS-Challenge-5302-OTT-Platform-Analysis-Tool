@@ -267,12 +267,12 @@ body {
 
 .register-form {
   padding: 50px 100px 50px 70px; }
-
+/*
 .form-row {
   margin: 0 -15px; }
   .form-row .form-group {
     width: 50%;
-    padding: 0 15px; }
+    padding: 0 15px; } */
 
 .form-group {
   margin-bottom: 23px;
@@ -359,8 +359,8 @@ input[type=radio] {
   input[type=radio]:checked ~ .check::before {
     background: #ff6801; }
 
-.form-select {
-  position: relative; }
+/* .form-select {
+  position: relative; } */
 
 select {
   appearance: none !important;
